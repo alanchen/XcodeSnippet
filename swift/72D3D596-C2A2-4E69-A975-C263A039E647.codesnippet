@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-vc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import UIKit
+
+@objcMembers class &lt;#class#&gt;: UIViewController {
+    
+    // MARK: - Property
+    let scrollView: UIScrollView = UIScrollView()
+    
+    // MARK: - UI Content
+    lazy var topBgImgView: UIImageView = {
+        let v: UIImageView = BCUIHelper.imageView(withName: "bubble-top-bg")
+        return v
+    }()
+    
+    // MARK: - Initialization
+    init() {
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("\(Self.self) init(coder:) has not been implemented")
+    }
+    
+    // MARK: - Life Cycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+    }
+}
+
+// MARK: - Action
+extension &lt;#class#&gt; {
+    
+}
+
+// MARK: - Public
+extension &lt;#class#&gt; {
+    
+}
+
+// MARK: - Private
+extension &lt;#class#&gt; {
+ 
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>72D3D596-C2A2-4E69-A975-C263A039E647</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift - ViewController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

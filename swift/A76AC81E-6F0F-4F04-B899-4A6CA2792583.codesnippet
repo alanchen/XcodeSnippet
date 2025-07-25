@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-class</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@objcMembers class &lt;#class#&gt;: UIView {
+
+    // MARK: - UI Content
+  
+
+    // MARK: - Life Cycle
+    required init?(coder: NSCoder) {
+        fatalError("\(Self.self) init(coder:) has not been implemented")
+    }
+}
+
+// MARK: - Action
+extension &lt;#class#&gt; {
+    
+}
+
+// MARK: - Public
+extension &lt;#class#&gt; {
+
+}
+
+// MARK: - Private
+extension &lt;#class#&gt; {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A76AC81E-6F0F-4F04-B899-4A6CA2792583</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift - Class Structure </string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
